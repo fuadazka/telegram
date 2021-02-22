@@ -1,0 +1,1 @@
+"var data = {\n    \"chat_id\" : msg.chat.id,\n    \"text\"  : \"hay Kamu\",\n    \"parse_mode\" : \"HTML\",\n    \"reply_markup\" : {\n        \"inline_keyboard\" : [\n            [\n                { \"text\": \"Google\", \"url\": \"https://www.google.com\" },\n            ],\n        ]\n    }\n};\ntg.request(\"sendMessage\", data);"
